@@ -1,0 +1,70 @@
+header{
+    position: relative;
+    height: 720px;
+
+    background: url(./images/banner-promotion-1.png);
+    background-size: cover;
+}
+
+.header__menu{
+    display: flex;
+
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.logo{
+    font-size: 28px;
+    color: white;
+}
+
+.logo span{
+    color: #3B44F6;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: rgba(239, 239, 239, 0.7);
+}
+
+.menu__link.active{
+    color: white;
+}
+
+.btn{
+    padding: 8px 16px;
+    background-color: #3B44F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-large{
+    padding: 16px 32px;
+}
+
+.banner__content{
+    position: absolute;
+    left: 50px;
+    bottom: calc(720px - 50%);
+
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner__title{
+    font-size: 48px;
+    color: white;
+}
+
+.banner__subtitle{
+    font-size: 24px;
+    color: white;
+}
