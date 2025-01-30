@@ -10,6 +10,20 @@ const arrayProducts = [
         // price: 590.000, --- Default price
         sale: 40,
         price: 590000,
+        visible: true
+    },
+    {
+        title: "Roblox",
+        image: "./images/game-6.png",
+        price: null, // Free Download
+        visible: true
+    },
+    {
+        title: "Game 3",
+        image: "./images/game-3.png",
+        price: 400000,
+        sale: 10,
+        visible: false
     }
 ]
 
@@ -73,3 +87,50 @@ function createProductBlock(item) {
 
     return itemWrapper;
 }
+
+function showAllGames() {
+    popularGamesList.innerHTML = '';
+
+    addProductsToList(arrayProducts)
+}
+
+function addProductsToList(products) {
+
+    products.forEach(item => {
+
+        const block = createProductBlock(item)
+    
+        popularGamesList.append(block)
+    })
+}
+
+addProductsToList(arrayProducts.filter(item => item.visible))
+
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+
+    effect: "coverflow",
+
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+
+    pagination: {
+        el: ".swiper-pagination",
+    },
+
+      // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+  
+  });
