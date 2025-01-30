@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
-    <title>Xbox Game | Full-stack For Teens - Figma</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
+
         <div class="header__menu">
             <div class="logo">
                 <span>eX</span>Store
             </div>
 
             <div class="menu">
-                <a class="menu__link active">Games</a>
-                <a class="menu__link active">Browse Games</a>
-                <a class="menu__link active">Store</a>
+                <a class="menu__link active" href="#">Games</a>
+                <a class="menu__link" href="#">Browse Games</a>
+                <a class="menu__link" href="#">Store</a>
             </div>
 
-            <div class="header__action">
+            <div class="header__actions">
                 <button class="btn">Корзина</button>
             </div>
         </div>
@@ -31,7 +32,147 @@
 
             <button class="btn btn-large">Get in now!</button>
         </div>
+
     </header>
+
+    <section class="Why eXStore" id="Why eXStore" >
+        <div class="why_text">
+            <h1 class="why_title">Why eXStore</h1>
+            <p class="indonesia">We are the official Xbox partner in Indonesia that provides official video games.</p>
+        </div>
+
+        <div class="facts">
+            <div class="fact">
+                <img src="./images/fluent_xbox-controller-32-filled.png" alt="">
+                <p class="fact_text">5000+ video games available</p>
+            </div>
+
+            <div class="fact">
+                <img src="./images/bxs_badge-check.png" alt="">
+                <p class="fact_text">Trusted by 100.000+ customers</p>
+            </div>
+
+            <div class="fact"> 
+                <img src="./images/fa6-brands_xbox.png" alt="">
+                <p class="fact_text">Available for all Xbox consoles</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section class="products__wrapper" id="popular-games">
+        <div class="products__header">
+            <h2 class="products__title">
+                Popular Games
+            </h2>
+            <div class="products__action">
+                <a id="popular-games-all" class="popular-games-all" href="#">Browse all games</a>
+            </div>
+        </div>
+
+        <div class="products__list">
+            <div class="item">
+                <img class="item__image" src="./images/game-1.png" alt="GTA V">
+                <div class="item__info">
+                    <h3 class="item__title">GTA V</h3>
+                    <div class="item__price-wrapper">
+                        <div class="item__price--free">
+                            Free Download
+                        </div>
+
+                        <div class="item__price--default">
+                            Rp 354.000
+                        </div>
+
+                        <div class="item__price--sale-wrapper">
+                            <span class="item__price--sale">40%</span>
+                            <span class="item__price--sale-amount">Rp 590.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="reviews">
+        <div class="rewiews_text">
+            <h1 class="howManyGamersSatisfied">12.000+ gamers satisfied</h1>
+            <p class="lets_hear">Let's hear what our customers have to say about their satisfaction with our services and products.</p>
+        </div>
+
+        <div class="rewiew_blocks">
+            <div class="rewiew_block-1">
+                <div class="people_photo">
+                    <img src="./images/people-1.png" alt="photo of people">
+                </div>
+
+                <div class="rewiew">
+                    <h2>Jacob Jones</h2>
+                    <img src="./images/star.png" alt="photo of people">
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi temporibus velit vero magni minus, laboriosam sed ipsa amet odit itaque quis nemo. Expedita soluta porro excepturi harum cumque architecto tempore?</p>
+                </div>
+            </div>
+
+            <div class="rewiew_block-2">
+                <div class="people_photo">
+                    <img src="./images/people-2.png" alt="photo of people">
+                </div>
+
+                <div class="rewiew">
+                    <h2>Cameron Williamson</h2>
+                    <img src="./images/star (1).png" alt="4 stars of 5">
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi temporibus velit vero magni minus, laboriosam sed ipsa amet odit itaque quis nemo. Expedita soluta porro excepturi harum cumque architecto tempore?</p>
+                </div>
+            </div> 
+
+            <div class="rewiew_block-1">
+                <div class="people_photo">
+                    <img src="./images/people-3.png" alt="5 stars of 5">
+                </div>
+
+                <div class="rewiew">
+                    <h2>Kristin Watson</h2>
+                    <img src="./images/star.png" alt="4 stars of 5">
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi temporibus velit vero magni minus, laboriosam sed ipsa amet odit itaque quis nemo. Expedita soluta porro excepturi harum cumque architecto tempore?</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+
+        <h2 class="footer-title"><span class="eX">eX</span>Store</h2>
+
+        <div class="menu">
+            <h6 class="subtitle">Menu</h6>
+            <p class="footer_p">Order tracking</p>
+            <p class="footer_p">Store location</p>
+            <p class="footer_p">Return policy</p>
+            <p class="footer_p">Support</p>
+        </div>
+
+        <div class="resources">
+            <h6 class="subtitle">Resources</h6>
+            <p class="footer_p">Blog</p>
+            <p class="footer_p">Help center</p>
+            <p class="footer_p">Documentation</p>
+            <p class="footer_p">Guidelines</p>
+        </div>
+
+        <div class="follow_us">
+            <h6 class="subtitle">Follow us on</h6>
+
+            <div class="icons">
+                <img src="./images/ant-design_instagram-outlined.png" alt="" class="icon">
+                <img src="./images/ant-design_youtube-filled.png" alt="" class="icon">
+                <img src="./images/akar-icons_twitch-fill.png" alt="" class="icon">
+                <img src="./images/ant-design_twitter-outlined.png" alt="" class="icon">
+            </div>
+        </div>
+    </footer>
 
 
     <script src="./script.js"></script>

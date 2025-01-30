@@ -1,28 +1,28 @@
-header{
+header {
     position: relative;
     height: 720px;
 
-    background: url(./images/banner-promotion-1.png);
+    background: url("./images/banner-promotion-1.png");
     background-size: cover;
 }
 
-.header__menu{
+.header__menu {
     display: flex;
 
     justify-content: space-between;
     padding: 20px 50px;
 }
 
-.logo{
+.logo {
     font-size: 28px;
     color: white;
 }
 
-.logo span{
+.logo span {
     color: #3B44F6;
 }
 
-.menu{
+.menu {
     display: flex;
     gap: 30px;
 }
@@ -32,11 +32,11 @@ header{
     color: rgba(239, 239, 239, 0.7);
 }
 
-.menu__link.active{
+.menu__link.active {
     color: white;
 }
 
-.btn{
+.btn {
     padding: 8px 16px;
     background-color: #3B44F6;
     color: white;
@@ -44,27 +44,209 @@ header{
     border-radius: 8px;
 }
 
-.btn-large{
+.btn-large {
     padding: 16px 32px;
 }
 
-.banner__content{
+.banner__content {
     position: absolute;
     left: 50px;
     bottom: calc(720px - 50%);
-
+    
     max-width: 350px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.banner__title{
+.banner__title {
     font-size: 48px;
     color: white;
 }
 
-.banner__subtitle{
+.banner__subtitle {
     font-size: 24px;
     color: white;
+}
+
+.products__title{
+    font-family: Lexend;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.popular-games-all{
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    justify-content: flex-end;
+}
+
+
+
+.why_title{
+    font-family: Lexend;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.indonesia{
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    justify-content: center;
+}
+
+.fact{
+    font-family: Lexend;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.howManyGamersSatisfied{
+    font-family: Lexend;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.lets_hear{
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.rewiew_block-1{
+    width: 297px;
+    height: 296px;
+    padding: 32px 24px 32px 24px;
+    gap: 24px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    background-color: whitesmoke;
+}
+
+.rewiew_block-2{
+    width: 338px;
+    height: 333px;
+    padding: 32px 24px 32px 24px;
+    gap: 24px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    background-color: whitesmoke;
+}
+
+.rewiew_block-1, .rewiew_block-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.76px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+footer{
+    background-color: #0E0E0E;
+    display: flex;
+    justify-content: space-between;
+    width: 1710px;
+    height: 369px;
+    top: 2821px;
+    padding: 50px 92px 0px 92px;
+    gap: 65px;
+    opacity: 0px;
+    color: white;
+}
+
+.footer-title{
+    font-family: Lexend;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white; 
+    justify-content: start; 
+    align-items: start;    
+}
+
+.eX{
+    font-family: Lexend;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 39.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3B44F6;
+}
+
+.menu, .resources{
+    display: block;
+}
+
+.subtitle{
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.footer_p{
+    color: #A0A0A0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 20px;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.icon{
+    margin-left: 10px;
 }
